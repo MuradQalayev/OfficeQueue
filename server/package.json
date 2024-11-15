@@ -1,0 +1,30 @@
+{
+  "name": "officemanagement",
+  "version": "1.0.0",
+  "description": "projectSEII",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --collectCoverage  --detectOpenHandles --forceExit"
+  },
+  "author": "Stefano Fumero",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "morgan": "^1.10.0",
+    "officemanagement": "file:",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "sqlite3": "^5.1.7",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
